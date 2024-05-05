@@ -9,3 +9,38 @@ body{
     background-attachment: fixed;
     
 }
+
+form {
+    background-color: #3498db; /* Color de fondo */
+    background: linear-gradient(rgba(104, 143, 168, 0.8), rgba(104, 143, 168,0.8)), url('ruta/a/tu/imagen.jpg'); /* Gradiente superpuesto sobre la imagen de fondo */
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+h1, p{
+    
+    text-align: center;
+}
+
+label {
+    display: block;
+    
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #b8b8c5;
+    border-color: white;
+    min-width: 300px;
+  }
+
+  fieldset {
+    border: none;
+  
+  }
