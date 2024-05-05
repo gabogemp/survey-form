@@ -1,27 +1,29 @@
 body{
-
+    font-family: "Pixelify Sans", sans-serif;
     width:100%;
     height:100vh;
     margin:0;
-    background-image: url("./images/pixelArtSurvey.jpeg");
+    /*background-image: url("./images/pixelArtSurvey.jpeg");*/
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ace80097-21be-4258-857d-18fda0419a51/dghbahq-48b6290d-a0d0-4797-b98f-65f1f70feb33.png/v1/fill/w_1386,h_500,q_80,strp/custom_judgementhall___resprite_by_mrmitten_dghbahq-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvYWNlODAwOTctMjFiZS00MjU4LTg1N2QtMThmZGEwNDE5YTUxXC9kZ2hiYWhxLTQ4YjYyOTBkLWEwZDAtNDc5Ny1iOThmLTY1ZjFmNzBmZWIzMy5wbmciLCJ3aWR0aCI6Ijw9MTM4NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.MktJUon3RSyd6nmwPzFpZS64Sbb1uMUa8CqrVHX73rw);
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
-    
 }
 
 form {
-    background-color: #3498db; /* Color de fondo */
-    background: linear-gradient(rgba(104, 143, 168, 0.8), rgba(104, 143, 168,0.8)), url('ruta/a/tu/imagen.jpg'); /* Gradiente superpuesto sobre la imagen de fondo */
+    background-color: #020994; /* Color de fondo */
+    background: linear-gradient(rgba(63, 89, 206, 0.7), rgba(139, 91, 221, 0.5)), url('ruta/a/tu/imagen.jpg'); /* Gradiente superpuesto sobre la imagen de fondo */
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
+    border-radius: 0.5%;
 }
 h1, p{
-    
+    color:rgb(97, 55, 131);
     text-align: center;
+    text-shadow: #18182e;
 }
 
 label {
@@ -30,17 +32,43 @@ label {
   }
 
   input[type="submit"] {
+    font-family: "Pixelify Sans", sans-serif;
     display: block;
     width: 60%;
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #b8b8c5;
+    background-color: #18182e;
     border-color: white;
     min-width: 300px;
+  }
+  input::placeholder {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 0.9rem;
+    color: #b998c672;
   }
 
   fieldset {
     border: none;
   
   }
+  input, textarea {
+    background-color: rgba(63, 42, 80, 0.297);
+    border: 1px solid #ccbce999;
+    border-radius: 5px;
+    color: #a465bd;
+  }
+  select {
+    font-size: 16px; /* Tamaño de la fuente */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Radio de borde */
+    background-color: #fff; /* Color de fondo */
+  }
+  
+  #dropdown{
+    background-color: rgba(63, 42, 80, 0.297);
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 0.9rem;
+    color: #b998c672;
+  }
+
