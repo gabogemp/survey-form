@@ -26,6 +26,10 @@ h1, p{
     text-shadow: #18182e;
 }
 
+hr{
+  border-color: rgba(0, 0, 0, 0.204);
+}
+
 label {
     display: block;
     
@@ -58,17 +62,17 @@ label {
     border-radius: 5px;
     color: #a465bd;
   }
-  select {
-    font-size: 16px; /* Tamaño de la fuente */
-    border: 1px solid #ccc; /* Borde */
-    border-radius: 5px; /* Radio de borde */
-    background-color: #fff; /* Color de fondo */
+  select,select option{
+    font-size: 16px; 
+    background-color: rgb(150, 174, 245);
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    color: #8762c0;
   }
   
   #dropdown{
-    background-color: rgba(63, 42, 80, 0.297);
+    background-color: rgba(58, 42, 94, 0.297);
     font-family: "Pixelify Sans", sans-serif;
     font-size: 0.9rem;
     color: #b998c672;
   }
-
