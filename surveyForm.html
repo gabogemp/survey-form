@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/style.css" />
     <title>Survey form</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 id="title">Survey form</h1>
-    <p id="description">This is a very short survey form about your favorite game</p>
+    <p id="description">
+      This is a very short survey form about your favorite game
+    </p>
     <form action="" id="survey-form">
-        <fieldset>
-<label for="name" id="name-label">Enter your name: <input type="text" id="name" placeholder="name" required></label>
-<label for="email" id="email-label">Enter your email: <input type="text" id="email" placeholder="@email" required></label>
-<label for="number" id="number-label">Enter your age: <input type="number" id="number" min="10" max="120" placeholder="age"></label>
-</fieldset>
-<fieldset>
-    <legend>favorite Game</legend>
-    <label for="">Select your favorite game: 
-        <select name="" id="">
+      <fieldset>
+        <label for="name" id="name-label"
+          >Enter your name:
+          <input type="text" id="name" placeholder="name" required
+        /></label>
+        <label for="email" id="email-label"
+          >Enter your email:
+          <input type="text" id="email" placeholder="@email" required
+        /></label>
+        <label for="number" id="number-label"
+          >Enter your age:
+          <input type="number" id="number" min="10" max="120" placeholder="age"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <legend>favorite Game</legend>
+        <label for=""
+          >Select your favorite game:
+          <select name="" id="">
             <option value="0" selected>select one</option>
             <option value="1">Elden Ring</option>
             <option value="2">Baldur's Gate 3</option>
             <option value="3">The Witcher III 3 Wild Hunt</option>
-        </select>
-    </label>
-</fieldset>
-<fieldset>
-    <legend>would you play it again?</legend>
-    <label for="yes">Yes: <input type="radio" name="yes" id=""></label>
-    <label for="no">No: <input type="radio" name="no" id=""></label>
-</fieldset>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>would you play it again?</legend>
+        <label for="yes">Yes: <input type="radio" name="yes" id="" /></label>
+        <label for="no">No: <input type="radio" name="no" id="" /></label>
+      </fieldset>
     </form>
-</body>
+  </body>
 </html>
